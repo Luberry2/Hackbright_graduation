@@ -60,20 +60,20 @@
 # else:
 #     print "My favorite color is not blue."
 
-# my_favorite_color = raw_input("What is my favorite color?")
-# if (my_favorite_color.capitalize() == "Red" or "Blue" or "Yellow"):
-#     print "My favorite color is primary color."
-# else:
-#     print "My favorite color is a secondary color."
+my_favorite_color = raw_input("What is my favorite color?")
+if my_favorite_color.capitalize() == "Red" or my_favorite_color.capitalize() == "Blue" or my_favorite_color.capitalize() == "Yellow":
+    print "My favorite color is primary color."
+else:
+    print "My favorite color is a secondary color."
 
 # line 63-67 did not work correctly. why?
 
-my_favorite_color = raw_input("What is my favorite color?")
-if my_favorite_color.capitalize() == "Red":
-    print "My favorite color is primary color."
-elif my_favorite_color.capitalize() == "Blue":
-    print "My favorite color is primary color"
-elif my_favorite_color.capitalize() == "Yellow":
-    print "My favorite color is primary color"
-else:
-    print "My favorite color is a secondry color."
+# my_favorite_color = raw_input("What is my favorite color?")
+# if my_favorite_color.capitalize() == "Red":
+#     print "My favorite color is primary color."
+# elif my_favorite_color.capitalize() == "Blue":
+#     print "My favorite color is primary color"
+# elif my_favorite_color.capitalize() == "Yellow":
+#     print "My favorite color is primary color"
+# else:
+#     print "My favorite color is a secondry color."
