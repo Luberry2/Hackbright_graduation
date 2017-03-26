@@ -61,7 +61,8 @@
 #     print "My favorite color is not blue."
 
 my_favorite_color = raw_input("What is my favorite color?")
-if my_favorite_color.capitalize() == "Red" or my_favorite_color.capitalize() == "Blue" or my_favorite_color.capitalize() == "Yellow":
+# if my_favorite_color.capitalize() == "Red" or my_favorite_color.capitalize() == "Blue" or my_favorite_color.capitalize() == "Yellow":
+if my_favorite_color.capitalize() in ["Red", "Blue", "Yellow"]:
     print "My favorite color is primary color."
 else:
     print "My favorite color is a secondary color."
